@@ -1,0 +1,23 @@
+{
+  "name": "sockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.2",
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+
+  "author": "",
+  "license": "ISC"
+}

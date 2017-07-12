@@ -1,0 +1,18 @@
+<html ng-app="myapp" ng-controller="myctrl">     
+    <head>
+       <title>{{title}}</title>
+        <script src="./node_modules/angular/angular.js"></script>
+         <script src="./node_modules/socket.io-client/dist/socket.io.js"></script>
+                <script src="./controller.js"></script>
+    </head>
+    <body>
+
+
+                
+<h3 ng-repeat="(x,m) in msgs track by $index">{{m.name}} : {{m.message}}</h3>
+<input type="text" ng-change="isTyping()" ng-model="msg">
+<button ng-click="sendMsg()">Send</button>
+       
+            
+    </body>
+</html>
